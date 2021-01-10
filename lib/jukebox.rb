@@ -63,4 +63,5 @@ def run(songs)
     else
       puts "Invalid input"
     end
+    run(songs)
 end
